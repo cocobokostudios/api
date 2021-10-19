@@ -1,0 +1,13 @@
+{
+  "name": "dw-api",
+  "version": "0.1.0",
+  "description": "Azure Function app API for davidwesst.com",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "David Wesst <david@cocobokostudios.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.3.0"
+  }
+}
