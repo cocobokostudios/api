@@ -1,5 +1,12 @@
-const httpFunction = require('../index');
-const context = require('./defaultContext')
+const httpFunction = require('./index');
+
+// mock context
+const context = {
+    log: jest.fn(),
+    bindingData: {
+        slug: 'valid-test-slug'
+    }
+};
 
 beforeEach(() => {
     jest.clearAllMocks();
