@@ -1,0 +1,3 @@
+{
+    "query": "query { repository(owner: \"davidwesst\", name: \"davidwesst\") { object(expression: \"HEAD:\") { ... on Tree { entries { name type mode object { ... on Blob { byteSize text isBinary } } } } } } }"
+}
