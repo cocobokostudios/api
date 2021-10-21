@@ -1,14 +1,14 @@
 {
   "bindings": [
     {
-      "authLevel": "function",
+      "authLevel": "Function",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
       "methods": [
         "get"
       ],
-      "route": "article"
+      "route": "profile"
     },
     {
       "type": "http",
